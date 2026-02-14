@@ -1,0 +1,314 @@
+﻿using System;
+using UnityEngine;
+
+// Token: 0x02000188 RID: 392
+public class UIVIPWindow : MonoBehaviour
+{
+	// Token: 0x06005731 RID: 22321 RVA: 0x00291FC0 File Offset: 0x002901C0
+	public void LDFPFIAEBFF()
+	{
+		Debug.Log("OfficeSittingMouseMovement");
+		NJMHLCGIAJI.EAJGHMMBAFP().PIGIIJLCADJ(148, 1);
+	}
+
+	// Token: 0x06005732 RID: 22322 RVA: 0x00291FDC File Offset: 0x002901DC
+	public void ABIFHCPOOHD()
+	{
+		Debug.Log("\n");
+		NJMHLCGIAJI.IKGFHGKKCPG.PIGIIJLCADJ(-110, 0);
+	}
+
+	// Token: 0x06005733 RID: 22323 RVA: 0x00291FF8 File Offset: 0x002901F8
+	public void KABNGLBIMKP()
+	{
+		Debug.Log("_InvRenderTargetSize");
+		NJMHLCGIAJI.IKGFHGKKCPG.AKJKNCIKBBF(-91, 0);
+	}
+
+	// Token: 0x06005734 RID: 22324 RVA: 0x00292014 File Offset: 0x00290214
+	public void HOPKCOLBBDF()
+	{
+		Debug.Log("Wand Stand");
+		NJMHLCGIAJI.IKGFHGKKCPG.KCONDIDKLIB(-15, 0);
+	}
+
+	// Token: 0x06005735 RID: 22325 RVA: 0x00292030 File Offset: 0x00290230
+	public void OJMLDNFLKDF()
+	{
+		Debug.Log("OnGround");
+		NJMHLCGIAJI.IKGFHGKKCPG.AKJKNCIKBBF(103, 1);
+	}
+
+	// Token: 0x06005736 RID: 22326 RVA: 0x0029204C File Offset: 0x0029024C
+	public void DIMOBDNIMGB()
+	{
+		Debug.Log("cancel");
+		NJMHLCGIAJI.IKGFHGKKCPG.KCONDIDKLIB(-45, 1);
+	}
+
+	// Token: 0x06005737 RID: 22327 RVA: 0x00292068 File Offset: 0x00290268
+	public void GHIBOMOICAK()
+	{
+		Debug.Log("error.wav");
+		NJMHLCGIAJI.EAJGHMMBAFP().AKJKNCIKBBF(139, 1);
+	}
+
+	// Token: 0x06005738 RID: 22328 RVA: 0x00292084 File Offset: 0x00290284
+	public void KBOKHLMILBI()
+	{
+		Debug.Log("WeaponReady");
+		NJMHLCGIAJI.EAJGHMMBAFP().KCONDIDKLIB(152, 1);
+	}
+
+	// Token: 0x06005739 RID: 22329 RVA: 0x002920A0 File Offset: 0x002902A0
+	public void AOMJDNPMHIF()
+	{
+		Debug.Log("category");
+		NJMHLCGIAJI.EAJGHMMBAFP().KCONDIDKLIB(57, 1);
+	}
+
+	// Token: 0x0600573A RID: 22330 RVA: 0x002920BC File Offset: 0x002902BC
+	public void DGFPPJDJAHI()
+	{
+		Debug.Log("man_death.ogg");
+		NJMHLCGIAJI.IKGFHGKKCPG.PIGIIJLCADJ(176, 1);
+	}
+
+	// Token: 0x0600573B RID: 22331 RVA: 0x002920D8 File Offset: 0x002902D8
+	public void MAPLDNOICOO()
+	{
+		Debug.Log("Bottoms");
+		NJMHLCGIAJI.IKGFHGKKCPG.AKJKNCIKBBF(26, 1);
+	}
+
+	// Token: 0x0600573C RID: 22332 RVA: 0x002920F4 File Offset: 0x002902F4
+	public void BBCODIBAOLC()
+	{
+		Debug.Log("Steam Overlay has been activated");
+		NJMHLCGIAJI.EAJGHMMBAFP().KCONDIDKLIB(6, 0);
+	}
+
+	// Token: 0x0600573D RID: 22333 RVA: 0x00292110 File Offset: 0x00290310
+	public void NOOLDIGDEEK()
+	{
+		Debug.Log("name");
+		NJMHLCGIAJI.IKGFHGKKCPG.KCONDIDKLIB(-172, 0);
+	}
+
+	// Token: 0x0600573E RID: 22334 RVA: 0x0029212C File Offset: 0x0029032C
+	public void OLBCGAMLNPG()
+	{
+		Debug.Log("\n");
+		NJMHLCGIAJI.IKGFHGKKCPG.KCONDIDKLIB(58, 1);
+	}
+
+	// Token: 0x0600573F RID: 22335 RVA: 0x00292148 File Offset: 0x00290348
+	public void KMGHGDEKLPK()
+	{
+		Debug.Log("MotorbikeAirWalk");
+		NJMHLCGIAJI.EAJGHMMBAFP().PIGIIJLCADJ(-126, 1);
+	}
+
+	// Token: 0x06005740 RID: 22336 RVA: 0x00292164 File Offset: 0x00290364
+	public void LIIJEMIENBI()
+	{
+		Debug.Log(" x");
+		NJMHLCGIAJI.EAJGHMMBAFP().AKJKNCIKBBF(101, 0);
+	}
+
+	// Token: 0x06005741 RID: 22337 RVA: 0x00292180 File Offset: 0x00290380
+	public void NOKAINMHLPO()
+	{
+		Debug.Log("\n");
+		NJMHLCGIAJI.EAJGHMMBAFP().AKJKNCIKBBF(113, 1);
+	}
+
+	// Token: 0x06005742 RID: 22338 RVA: 0x0029219C File Offset: 0x0029039C
+	public void EKAFLKEKOIM()
+	{
+		Debug.Log("Bow Instant2");
+		NJMHLCGIAJI.EAJGHMMBAFP().AKJKNCIKBBF(107, 0);
+	}
+
+	// Token: 0x06005744 RID: 22340 RVA: 0x002921B8 File Offset: 0x002903B8
+	public void HKGIHMKENLC()
+	{
+		Debug.Log("OfficeSitting1LegStraight");
+		NJMHLCGIAJI.IKGFHGKKCPG.AKJKNCIKBBF(-100, 1);
+	}
+
+	// Token: 0x06005745 RID: 22341 RVA: 0x002921D4 File Offset: 0x002903D4
+	public void OGBPJNCEOHH()
+	{
+		Debug.Log("cht_msg6");
+		NJMHLCGIAJI.IKGFHGKKCPG.PIGIIJLCADJ(-47, 0);
+	}
+
+	// Token: 0x06005746 RID: 22342 RVA: 0x002921F0 File Offset: 0x002903F0
+	public void HCFPNAOOAMB()
+	{
+		Debug.Log("Jump");
+		NJMHLCGIAJI.IKGFHGKKCPG.KCONDIDKLIB(80, 0);
+	}
+
+	// Token: 0x06005747 RID: 22343 RVA: 0x0029220C File Offset: 0x0029040C
+	public void GOEHNHOJMBO()
+	{
+		Debug.Log("CardPlayerIdle");
+		NJMHLCGIAJI.IKGFHGKKCPG.AKJKNCIKBBF(-178, 0);
+	}
+
+	// Token: 0x06005748 RID: 22344 RVA: 0x00292228 File Offset: 0x00290428
+	public void OOELKMCOCOP()
+	{
+		Debug.Log("ObscuredBool vs bool, ");
+		NJMHLCGIAJI.IKGFHGKKCPG.PIGIIJLCADJ(-30, 0);
+	}
+
+	// Token: 0x06005749 RID: 22345 RVA: 0x00292244 File Offset: 0x00290444
+	public void JPKNLPAIEPO()
+	{
+		Debug.Log("Motion Blur");
+		NJMHLCGIAJI.IKGFHGKKCPG.AKJKNCIKBBF(100, 0);
+	}
+
+	// Token: 0x0600574A RID: 22346 RVA: 0x00292260 File Offset: 0x00290460
+	public void EMLJPNNBGPJ()
+	{
+		Debug.Log("wpn_cat5");
+		NJMHLCGIAJI.IKGFHGKKCPG.AKJKNCIKBBF(169, 1);
+	}
+
+	// Token: 0x0600574B RID: 22347 RVA: 0x0029227C File Offset: 0x0029047C
+	public void NOIDAAPIGLD()
+	{
+		Debug.Log("PistolReady");
+		NJMHLCGIAJI.IKGFHGKKCPG.AKJKNCIKBBF(-175, 1);
+	}
+
+	// Token: 0x0600574C RID: 22348 RVA: 0x00292298 File Offset: 0x00290498
+	public void LKIDEAAOMNI()
+	{
+		Debug.Log("8 samples");
+		NJMHLCGIAJI.EAJGHMMBAFP().PIGIIJLCADJ(78, 0);
+	}
+
+	// Token: 0x0600574D RID: 22349 RVA: 0x002922B4 File Offset: 0x002904B4
+	public void FKOHMMDDOOK()
+	{
+		Debug.Log("C");
+		NJMHLCGIAJI.EAJGHMMBAFP().PIGIIJLCADJ(7, 0);
+	}
+
+	// Token: 0x0600574E RID: 22350 RVA: 0x002922D0 File Offset: 0x002904D0
+	public void buyVIP()
+	{
+		Debug.Log("buyVIP OK");
+		NJMHLCGIAJI.IKGFHGKKCPG.AKJKNCIKBBF(220, 0);
+	}
+
+	// Token: 0x0600574F RID: 22351 RVA: 0x002922EC File Offset: 0x002904EC
+	public void IKEGNJMFHIE()
+	{
+		Debug.Log("No Cell wpn.cell=");
+		NJMHLCGIAJI.IKGFHGKKCPG.PIGIIJLCADJ(45, 1);
+	}
+
+	// Token: 0x06005750 RID: 22352 RVA: 0x00292308 File Offset: 0x00290508
+	public void EOMDOPPCDFP()
+	{
+		Debug.Log("_Parameter");
+		NJMHLCGIAJI.EAJGHMMBAFP().AKJKNCIKBBF(134, 0);
+	}
+
+	// Token: 0x06005751 RID: 22353 RVA: 0x00292324 File Offset: 0x00290524
+	public void DKNKINJCNAP()
+	{
+		Debug.Log("Idle180");
+		NJMHLCGIAJI.EAJGHMMBAFP().PIGIIJLCADJ(-123, 0);
+	}
+
+	// Token: 0x06005752 RID: 22354 RVA: 0x00292340 File Offset: 0x00290540
+	public void CLFEJNCKMML()
+	{
+		Debug.Log("id");
+		NJMHLCGIAJI.IKGFHGKKCPG.PIGIIJLCADJ(73, 0);
+	}
+
+	// Token: 0x06005753 RID: 22355 RVA: 0x0029235C File Offset: 0x0029055C
+	public void BGGIAMLAKJA()
+	{
+		Debug.Log("sortType");
+		NJMHLCGIAJI.IKGFHGKKCPG.AKJKNCIKBBF(0, 1);
+	}
+
+	// Token: 0x06005754 RID: 22356 RVA: 0x00292378 File Offset: 0x00290578
+	public void KEMCBDAJDIE()
+	{
+		Debug.Log("_HitTime");
+		NJMHLCGIAJI.IKGFHGKKCPG.KCONDIDKLIB(131, 0);
+	}
+
+	// Token: 0x06005755 RID: 22357 RVA: 0x00292394 File Offset: 0x00290594
+	public void OGIGGJCGGKE()
+	{
+		Debug.Log("gi_tit_sel");
+		NJMHLCGIAJI.EAJGHMMBAFP().AKJKNCIKBBF(-129, 0);
+	}
+
+	// Token: 0x06005756 RID: 22358 RVA: 0x002923B0 File Offset: 0x002905B0
+	public void FCIGHADJKMG()
+	{
+		Debug.Log("type_");
+		NJMHLCGIAJI.EAJGHMMBAFP().PIGIIJLCADJ(-55, 0);
+	}
+
+	// Token: 0x06005757 RID: 22359 RVA: 0x002923CC File Offset: 0x002905CC
+	public void IEJCOEDBBBC()
+	{
+		Debug.Log("demoByteArray");
+		NJMHLCGIAJI.EAJGHMMBAFP().AKJKNCIKBBF(125, 0);
+	}
+
+	// Token: 0x06005758 RID: 22360 RVA: 0x002923E8 File Offset: 0x002905E8
+	public void MILICGAMPJD()
+	{
+		Debug.Log("name");
+		NJMHLCGIAJI.IKGFHGKKCPG.AKJKNCIKBBF(126, 1);
+	}
+
+	// Token: 0x06005759 RID: 22361 RVA: 0x00292404 File Offset: 0x00290604
+	public void LCOIBDNEEJA()
+	{
+		Debug.Log("RunJump");
+		NJMHLCGIAJI.EAJGHMMBAFP().PIGIIJLCADJ(-126, 1);
+	}
+
+	// Token: 0x0600575A RID: 22362 RVA: 0x00292420 File Offset: 0x00290620
+	public void HADDEAGCCEG()
+	{
+		Debug.Log("_l_");
+		NJMHLCGIAJI.IKGFHGKKCPG.AKJKNCIKBBF(-135, 1);
+	}
+
+	// Token: 0x0600575B RID: 22363 RVA: 0x0029243C File Offset: 0x0029063C
+	public void EIADPFFCMNM()
+	{
+		Debug.Log("PistolReady");
+		NJMHLCGIAJI.EAJGHMMBAFP().PIGIIJLCADJ(-65, 0);
+	}
+
+	// Token: 0x0600575C RID: 22364 RVA: 0x00292458 File Offset: 0x00290658
+	public void EGKIHMMDJEP()
+	{
+		Debug.Log("ProneLocomotion");
+		NJMHLCGIAJI.EAJGHMMBAFP().KCONDIDKLIB(97, 0);
+	}
+
+	// Token: 0x0600575D RID: 22365 RVA: 0x00292474 File Offset: 0x00290674
+	public void NPPFPPMOFKF()
+	{
+		Debug.Log("OfficeSitting1LegStraight");
+		NJMHLCGIAJI.EAJGHMMBAFP().AKJKNCIKBBF(36, 0);
+	}
+}

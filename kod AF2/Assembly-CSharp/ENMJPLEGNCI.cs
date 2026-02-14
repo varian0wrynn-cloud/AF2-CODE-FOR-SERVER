@@ -1,0 +1,26 @@
+﻿using System;
+
+// Token: 0x020004F1 RID: 1265
+public struct ENMJPLEGNCI
+{
+	// Token: 0x06010F59 RID: 69465 RVA: 0x007942AF File Offset: 0x007924AF
+	public ENMJPLEGNCI(bool AJMNDCHJPNK, bool BHJFHCHMOGL, bool HHAGIHEGFML, bool EGABJKIFAON)
+	{
+		this.AJMNDCHJPNK = AJMNDCHJPNK;
+		this.HHAGIHEGFML = HHAGIHEGFML;
+		this.BHJFHCHMOGL = BHJFHCHMOGL;
+		this.EGABJKIFAON = EGABJKIFAON;
+	}
+
+	// Token: 0x040023A5 RID: 9125
+	public bool AJMNDCHJPNK;
+
+	// Token: 0x040023A6 RID: 9126
+	public bool BHJFHCHMOGL;
+
+	// Token: 0x040023A7 RID: 9127
+	public bool HHAGIHEGFML;
+
+	// Token: 0x040023A8 RID: 9128
+	public bool EGABJKIFAON;
+}

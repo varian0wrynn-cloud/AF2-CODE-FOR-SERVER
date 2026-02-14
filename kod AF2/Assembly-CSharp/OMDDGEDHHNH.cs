@@ -1,0 +1,1889 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using AssetBundles;
+using UnityEngine;
+
+// Token: 0x020001D9 RID: 473
+public class OMDDGEDHHNH
+{
+	// Token: 0x06006D32 RID: 27954 RVA: 0x0033A0C8 File Offset: 0x003382C8
+	public OMDDGEDHHNH.BCDNKAGAFBM MEKGGIABFJG(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			return this.DOJKCHLIJNC[JHDIIHLCNEE + ALBOCLBFNNI];
+		}
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = JHDIIHLCNEE
+		};
+		this.DOJKCHLIJNC.Add(JHDIIHLCNEE + ALBOCLBFNNI, bcdnkagafbm);
+		OMDDGEDHHNH.EGLMHMBCDGL(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D33 RID: 27955 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH CGNMLGDPGMF()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D34 RID: 27956 RVA: 0x0033A154 File Offset: 0x00338354
+	private static void KBADMDOCIBM(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		GameObject gameObject = new GameObject();
+		AssetLoader assetLoader = gameObject.AddComponent<AssetLoader>();
+		NOFCHOFPHAD.IEPBHPIBMEB = assetLoader;
+		assetLoader.MPBHGKEPBIH(NOFCHOFPHAD);
+		UnityEngine.Object.DontDestroyOnLoad(gameObject);
+	}
+
+	// Token: 0x06006D35 RID: 27957 RVA: 0x0033A180 File Offset: 0x00338380
+	public OMDDGEDHHNH.BCDNKAGAFBM EMPEIJBLLJO(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			return this.DOJKCHLIJNC[JHDIIHLCNEE + ALBOCLBFNNI];
+		}
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = JHDIIHLCNEE
+		};
+		this.DOJKCHLIJNC.Add(JHDIIHLCNEE + ALBOCLBFNNI, bcdnkagafbm);
+		OMDDGEDHHNH.JCCOGCFIHOI(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D36 RID: 27958 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH MNJNNDHCDGG()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D37 RID: 27959 RVA: 0x0033A1F1 File Offset: 0x003383F1
+	public void GNHICDNAFBC(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		if (this.DOJKCHLIJNC.ContainsValue(NOFCHOFPHAD))
+		{
+			this.DOJKCHLIJNC.Remove(NOFCHOFPHAD.JMBKDINHDLO);
+		}
+	}
+
+	// Token: 0x06006D38 RID: 27960 RVA: 0x0033A214 File Offset: 0x00338414
+	public OMDDGEDHHNH.BCDNKAGAFBM FNBJHBLNMKN(string ALBOCLBFNNI, int ODFEKBJCFMN, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL, string KEIEIAAKHHK = "")
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm;
+		if (this.DOJKCHLIJNC.ContainsKey(0 + ALBOCLBFNNI))
+		{
+			bcdnkagafbm = this.DOJKCHLIJNC[0 + ALBOCLBFNNI];
+			bcdnkagafbm.FBIHOJBOGNO(GGNJJAHJKEL);
+			if (bcdnkagafbm.DKDILDPNDFI)
+			{
+				bcdnkagafbm.KEAEMCGFNBG();
+			}
+			return bcdnkagafbm;
+		}
+		bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = 1
+		};
+		bcdnkagafbm.ODIMCAHNIDA(GGNJJAHJKEL);
+		bcdnkagafbm.KEIEIAAKHHK = KEIEIAAKHHK;
+		string text = 0 + ALBOCLBFNNI;
+		bcdnkagafbm.JMBKDINHDLO = text;
+		this.DOJKCHLIJNC.Add(text, bcdnkagafbm);
+		OMDDGEDHHNH.IHCKLLIJGEC(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D39 RID: 27961 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH DPBNHMCDIIK()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D3A RID: 27962 RVA: 0x0033A2B4 File Offset: 0x003384B4
+	public bool FPMBDHEALPE(string ALBOCLBFNNI)
+	{
+		return this.DOJKCHLIJNC.ContainsKey(0 + ALBOCLBFNNI) || File.Exists((AssetBundleManager.JKCEMCDBFLH + ALBOCLBFNNI).Substring(8));
+	}
+
+	// Token: 0x06006D3B RID: 27963 RVA: 0x0033A1F1 File Offset: 0x003383F1
+	public void JCINIEIMKEO(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		if (this.DOJKCHLIJNC.ContainsValue(NOFCHOFPHAD))
+		{
+			this.DOJKCHLIJNC.Remove(NOFCHOFPHAD.JMBKDINHDLO);
+		}
+	}
+
+	// Token: 0x06006D3C RID: 27964 RVA: 0x0033A2EC File Offset: 0x003384EC
+	private static void HIBADBMCFBJ(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		GameObject gameObject = new GameObject();
+		AssetLoader assetLoader = gameObject.AddComponent<AssetLoader>();
+		NOFCHOFPHAD.IEPBHPIBMEB = assetLoader;
+		assetLoader.load(NOFCHOFPHAD);
+		UnityEngine.Object.DontDestroyOnLoad(gameObject);
+	}
+
+	// Token: 0x06006D3D RID: 27965 RVA: 0x0033A318 File Offset: 0x00338518
+	public OMDDGEDHHNH.BCDNKAGAFBM CHDCMOHELIN(GameObject LABINALEMEA, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL)
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM();
+		bcdnkagafbm.ALBOCLBFNNI = " %\n";
+		bcdnkagafbm.LJGEPGGFHKD(GGNJJAHJKEL);
+		bcdnkagafbm.DKDILDPNDFI = false;
+		bcdnkagafbm.PMJIHPFGCGJ = false;
+		bcdnkagafbm.DANHCOLDBDB = true;
+		bcdnkagafbm.FEDINAMCHHF = LABINALEMEA;
+		bcdnkagafbm.CCGMOJLHKPG();
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D3E RID: 27966 RVA: 0x0033A354 File Offset: 0x00338554
+	public OMDDGEDHHNH.BCDNKAGAFBM ANDMFEGKNIC(string ALBOCLBFNNI, int ODFEKBJCFMN, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL, string KEIEIAAKHHK = "")
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm;
+		if (this.DOJKCHLIJNC.ContainsKey(1 + ALBOCLBFNNI))
+		{
+			bcdnkagafbm = this.DOJKCHLIJNC[1 + ALBOCLBFNNI];
+			bcdnkagafbm.BEGJKDBEOIB(GGNJJAHJKEL);
+			if (bcdnkagafbm.DKDILDPNDFI)
+			{
+				bcdnkagafbm.FLPABBBBJCD();
+			}
+			return bcdnkagafbm;
+		}
+		bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = 1
+		};
+		bcdnkagafbm.LJGEPGGFHKD(GGNJJAHJKEL);
+		bcdnkagafbm.KEIEIAAKHHK = KEIEIAAKHHK;
+		string text = 1 + ALBOCLBFNNI;
+		bcdnkagafbm.JMBKDINHDLO = text;
+		this.DOJKCHLIJNC.Add(text, bcdnkagafbm);
+		OMDDGEDHHNH.BGIIKMBCJGM(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D3F RID: 27967 RVA: 0x0033A3F4 File Offset: 0x003385F4
+	public bool DBNEANLAHNM(string ALBOCLBFNNI)
+	{
+		return this.DOJKCHLIJNC.ContainsKey(1 + ALBOCLBFNNI) || !File.Exists((AssetBundleManager.JKCEMCDBFLH + ALBOCLBFNNI).Substring(1));
+	}
+
+	// Token: 0x06006D40 RID: 27968 RVA: 0x0033A42C File Offset: 0x0033862C
+	private static void BGIIKMBCJGM(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		GameObject gameObject = new GameObject();
+		AssetLoader assetLoader = gameObject.AddComponent<AssetLoader>();
+		NOFCHOFPHAD.IEPBHPIBMEB = assetLoader;
+		assetLoader.MCCGOCKOANL(NOFCHOFPHAD);
+		UnityEngine.Object.DontDestroyOnLoad(gameObject);
+	}
+
+	// Token: 0x06006D41 RID: 27969 RVA: 0x0033A458 File Offset: 0x00338658
+	public void GOOPKGLMPDP(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D42 RID: 27970 RVA: 0x0033A48B File Offset: 0x0033868B
+	public OMDDGEDHHNH.BCDNKAGAFBM LLKGDPHEIFG(GameObject LABINALEMEA, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL)
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM();
+		bcdnkagafbm.ALBOCLBFNNI = "Fishing";
+		bcdnkagafbm.DMCJGPEEJPN(GGNJJAHJKEL);
+		bcdnkagafbm.DKDILDPNDFI = false;
+		bcdnkagafbm.PMJIHPFGCGJ = true;
+		bcdnkagafbm.DANHCOLDBDB = true;
+		bcdnkagafbm.FEDINAMCHHF = LABINALEMEA;
+		bcdnkagafbm.IALKJFLJBCP();
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D43 RID: 27971 RVA: 0x0033A458 File Offset: 0x00338658
+	public void CNCHCAGGJPB(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D44 RID: 27972 RVA: 0x0033A4C6 File Offset: 0x003386C6
+	public OMDDGEDHHNH.BCDNKAGAFBM LDCAKPAIPHH(GameObject LABINALEMEA, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL)
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM();
+		bcdnkagafbm.ALBOCLBFNNI = "PaperTurn.wav";
+		bcdnkagafbm.LJGEPGGFHKD(GGNJJAHJKEL);
+		bcdnkagafbm.DKDILDPNDFI = false;
+		bcdnkagafbm.PMJIHPFGCGJ = false;
+		bcdnkagafbm.DANHCOLDBDB = false;
+		bcdnkagafbm.FEDINAMCHHF = LABINALEMEA;
+		bcdnkagafbm.IALKJFLJBCP();
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D45 RID: 27973 RVA: 0x0033A504 File Offset: 0x00338704
+	public OMDDGEDHHNH.BCDNKAGAFBM GIFJNCOAAKH(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			return this.DOJKCHLIJNC[JHDIIHLCNEE + ALBOCLBFNNI];
+		}
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = JHDIIHLCNEE
+		};
+		this.DOJKCHLIJNC.Add(JHDIIHLCNEE + ALBOCLBFNNI, bcdnkagafbm);
+		OMDDGEDHHNH.EGLMHMBCDGL(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D46 RID: 27974 RVA: 0x0033A458 File Offset: 0x00338658
+	public void BEEDBBKKHCG(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D47 RID: 27975 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH FEJILBICKGG()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D48 RID: 27976 RVA: 0x0033A458 File Offset: 0x00338658
+	public void ICPFLFOMJPF(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D49 RID: 27977 RVA: 0x0033A578 File Offset: 0x00338778
+	public OMDDGEDHHNH.BCDNKAGAFBM EJOCJNNFLOG(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			return this.DOJKCHLIJNC[JHDIIHLCNEE + ALBOCLBFNNI];
+		}
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = JHDIIHLCNEE
+		};
+		this.DOJKCHLIJNC.Add(JHDIIHLCNEE + ALBOCLBFNNI, bcdnkagafbm);
+		OMDDGEDHHNH.HIBADBMCFBJ(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D4A RID: 27978 RVA: 0x0033A5EC File Offset: 0x003387EC
+	private static void LJMENCIKHLD(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		GameObject gameObject = new GameObject();
+		AssetLoader assetLoader = gameObject.AddComponent<AssetLoader>();
+		NOFCHOFPHAD.IEPBHPIBMEB = assetLoader;
+		assetLoader.JLJPELHCMFF(NOFCHOFPHAD);
+		UnityEngine.Object.DontDestroyOnLoad(gameObject);
+	}
+
+	// Token: 0x06006D4B RID: 27979 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH DAANHKAOCKP()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D4C RID: 27980 RVA: 0x0033A618 File Offset: 0x00338818
+	private static void CBMFLKDONEA(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		GameObject gameObject = new GameObject();
+		AssetLoader assetLoader = gameObject.AddComponent<AssetLoader>();
+		NOFCHOFPHAD.IEPBHPIBMEB = assetLoader;
+		assetLoader.HMHKMPEPGNB(NOFCHOFPHAD);
+		UnityEngine.Object.DontDestroyOnLoad(gameObject);
+	}
+
+	// Token: 0x06006D4D RID: 27981 RVA: 0x0033A644 File Offset: 0x00338844
+	private static void MJILGKHFHMN(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		GameObject gameObject = new GameObject();
+		AssetLoader assetLoader = gameObject.AddComponent<AssetLoader>();
+		NOFCHOFPHAD.IEPBHPIBMEB = assetLoader;
+		assetLoader.HOLMNGFNJON(NOFCHOFPHAD);
+		UnityEngine.Object.DontDestroyOnLoad(gameObject);
+	}
+
+	// Token: 0x06006D4E RID: 27982 RVA: 0x0033A670 File Offset: 0x00338870
+	public OMDDGEDHHNH.BCDNKAGAFBM PKIMLJPPNIJ(GameObject LABINALEMEA, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL)
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM();
+		bcdnkagafbm.ALBOCLBFNNI = "IdleStand";
+		bcdnkagafbm.BEGJKDBEOIB(GGNJJAHJKEL);
+		bcdnkagafbm.DKDILDPNDFI = false;
+		bcdnkagafbm.PMJIHPFGCGJ = false;
+		bcdnkagafbm.DANHCOLDBDB = false;
+		bcdnkagafbm.FEDINAMCHHF = LABINALEMEA;
+		bcdnkagafbm.FMPMDOFDJAG();
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D4F RID: 27983 RVA: 0x0033A458 File Offset: 0x00338658
+	public void LFCJNNBPJDI(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D50 RID: 27984 RVA: 0x0033A458 File Offset: 0x00338658
+	public void ALDLCDDHCIG(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D51 RID: 27985 RVA: 0x0033A6AB File Offset: 0x003388AB
+	public bool GCKIEOJFJGI(string ALBOCLBFNNI)
+	{
+		return this.DOJKCHLIJNC.ContainsKey(1 + ALBOCLBFNNI) || !File.Exists((AssetBundleManager.LKKOLAEODGP() + ALBOCLBFNNI).Substring(0));
+	}
+
+	// Token: 0x06006D52 RID: 27986 RVA: 0x0033A458 File Offset: 0x00338658
+	public void LJLFBMNNEAA(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D53 RID: 27987 RVA: 0x0033A6E4 File Offset: 0x003388E4
+	private static void BHPOFJCBHGP(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		GameObject gameObject = new GameObject();
+		AssetLoader assetLoader = gameObject.AddComponent<AssetLoader>();
+		NOFCHOFPHAD.IEPBHPIBMEB = assetLoader;
+		assetLoader.HPLBMOONAFF(NOFCHOFPHAD);
+		UnityEngine.Object.DontDestroyOnLoad(gameObject);
+	}
+
+	// Token: 0x06006D54 RID: 27988 RVA: 0x0033A458 File Offset: 0x00338658
+	public void OBAILLDHBIL(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D55 RID: 27989 RVA: 0x0033A710 File Offset: 0x00338910
+	public OMDDGEDHHNH.BCDNKAGAFBM GHEAKACDEEG(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			return this.DOJKCHLIJNC[JHDIIHLCNEE + ALBOCLBFNNI];
+		}
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = JHDIIHLCNEE
+		};
+		this.DOJKCHLIJNC.Add(JHDIIHLCNEE + ALBOCLBFNNI, bcdnkagafbm);
+		OMDDGEDHHNH.IHCKLLIJGEC(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D56 RID: 27990 RVA: 0x0033A784 File Offset: 0x00338984
+	public OMDDGEDHHNH.BCDNKAGAFBM EJIAGOLJNMG(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			return this.DOJKCHLIJNC[JHDIIHLCNEE + ALBOCLBFNNI];
+		}
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = JHDIIHLCNEE
+		};
+		this.DOJKCHLIJNC.Add(JHDIIHLCNEE + ALBOCLBFNNI, bcdnkagafbm);
+		OMDDGEDHHNH.EGLMHMBCDGL(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D57 RID: 27991 RVA: 0x0033A1F1 File Offset: 0x003383F1
+	public void ENKMDJMBDNJ(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		if (this.DOJKCHLIJNC.ContainsValue(NOFCHOFPHAD))
+		{
+			this.DOJKCHLIJNC.Remove(NOFCHOFPHAD.JMBKDINHDLO);
+		}
+	}
+
+	// Token: 0x06006D58 RID: 27992 RVA: 0x0033A7F5 File Offset: 0x003389F5
+	public OMDDGEDHHNH.BCDNKAGAFBM CIIGOMDCPGC(GameObject LABINALEMEA, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL)
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM();
+		bcdnkagafbm.ALBOCLBFNNI = "harvestmsg2";
+		bcdnkagafbm.DMCJGPEEJPN(GGNJJAHJKEL);
+		bcdnkagafbm.DKDILDPNDFI = true;
+		bcdnkagafbm.PMJIHPFGCGJ = false;
+		bcdnkagafbm.DANHCOLDBDB = true;
+		bcdnkagafbm.FEDINAMCHHF = LABINALEMEA;
+		bcdnkagafbm.FMPMDOFDJAG();
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D59 RID: 27993 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH NLIONDPCKHJ()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D5A RID: 27994 RVA: 0x0033A830 File Offset: 0x00338A30
+	public bool EAJKEFKMDEL(string ALBOCLBFNNI)
+	{
+		return !this.DOJKCHLIJNC.ContainsKey(0 + ALBOCLBFNNI) && !File.Exists((AssetBundleManager.DCEIEKLCDLG() + ALBOCLBFNNI).Substring(2)) && false;
+	}
+
+	// Token: 0x06006D5B RID: 27995 RVA: 0x0033A458 File Offset: 0x00338658
+	public void CMBJLFHJGBF(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D5C RID: 27996 RVA: 0x0033A868 File Offset: 0x00338A68
+	public OMDDGEDHHNH.BCDNKAGAFBM HBBIEEBNJGF(string ALBOCLBFNNI, int ODFEKBJCFMN, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL, string KEIEIAAKHHK = "")
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm;
+		if (this.DOJKCHLIJNC.ContainsKey(1 + ALBOCLBFNNI))
+		{
+			bcdnkagafbm = this.DOJKCHLIJNC[0 + ALBOCLBFNNI];
+			bcdnkagafbm.MNOEPFMPAMA(GGNJJAHJKEL);
+			if (bcdnkagafbm.DKDILDPNDFI)
+			{
+				bcdnkagafbm.EKJKDGEACFH();
+			}
+			return bcdnkagafbm;
+		}
+		bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = 0
+		};
+		bcdnkagafbm.BEGJKDBEOIB(GGNJJAHJKEL);
+		bcdnkagafbm.KEIEIAAKHHK = KEIEIAAKHHK;
+		string text = 0 + ALBOCLBFNNI;
+		bcdnkagafbm.JMBKDINHDLO = text;
+		this.DOJKCHLIJNC.Add(text, bcdnkagafbm);
+		OMDDGEDHHNH.BHPOFJCBHGP(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D5D RID: 27997 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH ENNAAFEOFAH()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D5E RID: 27998 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH JMHOODFAGAM()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D5F RID: 27999 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH EEOPOHEALPK()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D60 RID: 28000 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH AOPCLGIGAEA()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D61 RID: 28001 RVA: 0x0033A908 File Offset: 0x00338B08
+	public OMDDGEDHHNH.BCDNKAGAFBM DOCJAMAKJAN(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			return this.DOJKCHLIJNC[JHDIIHLCNEE + ALBOCLBFNNI];
+		}
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = JHDIIHLCNEE
+		};
+		this.DOJKCHLIJNC.Add(JHDIIHLCNEE + ALBOCLBFNNI, bcdnkagafbm);
+		OMDDGEDHHNH.KBADMDOCIBM(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D62 RID: 28002 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH FCNIKNBOFOJ()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D64 RID: 28004 RVA: 0x0033A98C File Offset: 0x00338B8C
+	public OMDDGEDHHNH.BCDNKAGAFBM OHADKIJLIEM(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			return this.DOJKCHLIJNC[JHDIIHLCNEE + ALBOCLBFNNI];
+		}
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = JHDIIHLCNEE
+		};
+		this.DOJKCHLIJNC.Add(JHDIIHLCNEE + ALBOCLBFNNI, bcdnkagafbm);
+		OMDDGEDHHNH.IHCKLLIJGEC(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D65 RID: 28005 RVA: 0x0033A458 File Offset: 0x00338658
+	public void EAILMDCOOEI(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D66 RID: 28006 RVA: 0x0033A458 File Offset: 0x00338658
+	public void JICPDPKHOBA(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D67 RID: 28007 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH NPCAKEGNBHD()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D68 RID: 28008 RVA: 0x0033AA00 File Offset: 0x00338C00
+	private static void EGLMHMBCDGL(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		GameObject gameObject = new GameObject();
+		AssetLoader assetLoader = gameObject.AddComponent<AssetLoader>();
+		NOFCHOFPHAD.IEPBHPIBMEB = assetLoader;
+		assetLoader.KKFDCOKFCNC(NOFCHOFPHAD);
+		UnityEngine.Object.DontDestroyOnLoad(gameObject);
+	}
+
+	// Token: 0x06006D69 RID: 28009 RVA: 0x0033AA2C File Offset: 0x00338C2C
+	public bool EFDBPOBBFHL(string ALBOCLBFNNI)
+	{
+		return !this.DOJKCHLIJNC.ContainsKey(0 + ALBOCLBFNNI) && (File.Exists((AssetBundleManager.DCEIEKLCDLG() + ALBOCLBFNNI).Substring(2)) || true);
+	}
+
+	// Token: 0x06006D6A RID: 28010 RVA: 0x0033AA64 File Offset: 0x00338C64
+	public OMDDGEDHHNH.BCDNKAGAFBM NPLKJOLLJGE(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			return this.DOJKCHLIJNC[JHDIIHLCNEE + ALBOCLBFNNI];
+		}
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = JHDIIHLCNEE
+		};
+		this.DOJKCHLIJNC.Add(JHDIIHLCNEE + ALBOCLBFNNI, bcdnkagafbm);
+		OMDDGEDHHNH.CBMFLKDONEA(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D6B RID: 28011 RVA: 0x0033AAD5 File Offset: 0x00338CD5
+	public bool GMIBOJOKPAK(string ALBOCLBFNNI)
+	{
+		return this.DOJKCHLIJNC.ContainsKey(1 + ALBOCLBFNNI) || File.Exists((AssetBundleManager.LKKOLAEODGP() + ALBOCLBFNNI).Substring(1));
+	}
+
+	// Token: 0x06006D6C RID: 28012 RVA: 0x0033AB10 File Offset: 0x00338D10
+	public OMDDGEDHHNH.BCDNKAGAFBM FBKDPHEGOLP(string ALBOCLBFNNI, int ODFEKBJCFMN, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL, string KEIEIAAKHHK = "")
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm;
+		if (this.DOJKCHLIJNC.ContainsKey(0 + ALBOCLBFNNI))
+		{
+			bcdnkagafbm = this.DOJKCHLIJNC[1 + ALBOCLBFNNI];
+			bcdnkagafbm.CAPONNNBHMD(GGNJJAHJKEL);
+			if (bcdnkagafbm.DKDILDPNDFI)
+			{
+				bcdnkagafbm.IALKJFLJBCP();
+			}
+			return bcdnkagafbm;
+		}
+		bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = 1
+		};
+		bcdnkagafbm.DMCJGPEEJPN(GGNJJAHJKEL);
+		bcdnkagafbm.KEIEIAAKHHK = KEIEIAAKHHK;
+		string text = 1 + ALBOCLBFNNI;
+		bcdnkagafbm.JMBKDINHDLO = text;
+		this.DOJKCHLIJNC.Add(text, bcdnkagafbm);
+		OMDDGEDHHNH.LFGNKGEOFDF(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D6D RID: 28013 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH IMLLGEMPHAP()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D6E RID: 28014 RVA: 0x0033ABB0 File Offset: 0x00338DB0
+	public OMDDGEDHHNH.BCDNKAGAFBM GLEDIDEJKHO(string ALBOCLBFNNI, int ODFEKBJCFMN, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL, string KEIEIAAKHHK = "")
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm;
+		if (this.DOJKCHLIJNC.ContainsKey(0 + ALBOCLBFNNI))
+		{
+			bcdnkagafbm = this.DOJKCHLIJNC[1 + ALBOCLBFNNI];
+			bcdnkagafbm.FBIHOJBOGNO(GGNJJAHJKEL);
+			if (bcdnkagafbm.DKDILDPNDFI)
+			{
+				bcdnkagafbm.IALKJFLJBCP();
+			}
+			return bcdnkagafbm;
+		}
+		bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = 1
+		};
+		bcdnkagafbm.LJGEPGGFHKD(GGNJJAHJKEL);
+		bcdnkagafbm.KEIEIAAKHHK = KEIEIAAKHHK;
+		string text = 1 + ALBOCLBFNNI;
+		bcdnkagafbm.JMBKDINHDLO = text;
+		this.DOJKCHLIJNC.Add(text, bcdnkagafbm);
+		OMDDGEDHHNH.KEIBEFJIFFE(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D6F RID: 28015 RVA: 0x0033AC50 File Offset: 0x00338E50
+	public OMDDGEDHHNH.BCDNKAGAFBM KKDGAALGEAE(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			return this.DOJKCHLIJNC[JHDIIHLCNEE + ALBOCLBFNNI];
+		}
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = JHDIIHLCNEE
+		};
+		this.DOJKCHLIJNC.Add(JHDIIHLCNEE + ALBOCLBFNNI, bcdnkagafbm);
+		OMDDGEDHHNH.MJILGKHFHMN(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D70 RID: 28016 RVA: 0x0033A1F1 File Offset: 0x003383F1
+	public void EGIGGKDIJLE(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		if (this.DOJKCHLIJNC.ContainsValue(NOFCHOFPHAD))
+		{
+			this.DOJKCHLIJNC.Remove(NOFCHOFPHAD.JMBKDINHDLO);
+		}
+	}
+
+	// Token: 0x06006D71 RID: 28017 RVA: 0x0033ACC1 File Offset: 0x00338EC1
+	public OMDDGEDHHNH.BCDNKAGAFBM EIOOOEFBCGI(GameObject LABINALEMEA, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL)
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM();
+		bcdnkagafbm.ALBOCLBFNNI = "ProneIdle";
+		bcdnkagafbm.PCLBBOGHIDA(GGNJJAHJKEL);
+		bcdnkagafbm.DKDILDPNDFI = true;
+		bcdnkagafbm.PMJIHPFGCGJ = true;
+		bcdnkagafbm.DANHCOLDBDB = true;
+		bcdnkagafbm.FEDINAMCHHF = LABINALEMEA;
+		bcdnkagafbm.GPGOJAJNGEE();
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D72 RID: 28018 RVA: 0x0033ACFC File Offset: 0x00338EFC
+	public OMDDGEDHHNH.BCDNKAGAFBM GMEONEFHOEJ(GameObject LABINALEMEA, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL)
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM();
+		bcdnkagafbm.ALBOCLBFNNI = "Flashlight";
+		bcdnkagafbm.CAPONNNBHMD(GGNJJAHJKEL);
+		bcdnkagafbm.DKDILDPNDFI = true;
+		bcdnkagafbm.PMJIHPFGCGJ = true;
+		bcdnkagafbm.DANHCOLDBDB = false;
+		bcdnkagafbm.FEDINAMCHHF = LABINALEMEA;
+		bcdnkagafbm.IALKJFLJBCP();
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D73 RID: 28019 RVA: 0x0033A458 File Offset: 0x00338658
+	public void JMHBLPANPIK(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D74 RID: 28020 RVA: 0x0033AD38 File Offset: 0x00338F38
+	public OMDDGEDHHNH.BCDNKAGAFBM OPCHOKKAEAD(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			return this.DOJKCHLIJNC[JHDIIHLCNEE + ALBOCLBFNNI];
+		}
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = JHDIIHLCNEE
+		};
+		this.DOJKCHLIJNC.Add(JHDIIHLCNEE + ALBOCLBFNNI, bcdnkagafbm);
+		OMDDGEDHHNH.EGLMHMBCDGL(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D75 RID: 28021 RVA: 0x0033ADA9 File Offset: 0x00338FA9
+	public bool DMKEOMIHOIJ(string ALBOCLBFNNI)
+	{
+		return this.DOJKCHLIJNC.ContainsKey(0 + ALBOCLBFNNI) || !File.Exists((AssetBundleManager.JKCEMCDBFLH + ALBOCLBFNNI).Substring(1));
+	}
+
+	// Token: 0x06006D76 RID: 28022 RVA: 0x0033A458 File Offset: 0x00338658
+	public void PPILLDDDFPM(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D77 RID: 28023 RVA: 0x0033A1F1 File Offset: 0x003383F1
+	public void DLJOCLKGENG(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		if (this.DOJKCHLIJNC.ContainsValue(NOFCHOFPHAD))
+		{
+			this.DOJKCHLIJNC.Remove(NOFCHOFPHAD.JMBKDINHDLO);
+		}
+	}
+
+	// Token: 0x06006D78 RID: 28024 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH BCLPDGODGKF()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D79 RID: 28025 RVA: 0x0033A458 File Offset: 0x00338658
+	public void HCMAKBCDNBN(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D7A RID: 28026 RVA: 0x0033ADE4 File Offset: 0x00338FE4
+	public OMDDGEDHHNH.BCDNKAGAFBM NBKKJNFHOFE(string ALBOCLBFNNI, int ODFEKBJCFMN, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL, string KEIEIAAKHHK = "")
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm;
+		if (this.DOJKCHLIJNC.ContainsKey(1 + ALBOCLBFNNI))
+		{
+			bcdnkagafbm = this.DOJKCHLIJNC[0 + ALBOCLBFNNI];
+			bcdnkagafbm.MNOEPFMPAMA(GGNJJAHJKEL);
+			if (bcdnkagafbm.DKDILDPNDFI)
+			{
+				bcdnkagafbm.GPGOJAJNGEE();
+			}
+			return bcdnkagafbm;
+		}
+		bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = 0
+		};
+		bcdnkagafbm.MNOEPFMPAMA(GGNJJAHJKEL);
+		bcdnkagafbm.KEIEIAAKHHK = KEIEIAAKHHK;
+		string text = 1 + ALBOCLBFNNI;
+		bcdnkagafbm.JMBKDINHDLO = text;
+		this.DOJKCHLIJNC.Add(text, bcdnkagafbm);
+		OMDDGEDHHNH.KEIBEFJIFFE(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D7B RID: 28027 RVA: 0x0033AE84 File Offset: 0x00339084
+	public bool OBJLDGNGKKA(string ALBOCLBFNNI)
+	{
+		return !this.DOJKCHLIJNC.ContainsKey(1 + ALBOCLBFNNI) && (File.Exists((AssetBundleManager.LKKOLAEODGP() + ALBOCLBFNNI).Substring(8)) || true);
+	}
+
+	// Token: 0x06006D7C RID: 28028 RVA: 0x0033AEBC File Offset: 0x003390BC
+	public OMDDGEDHHNH.BCDNKAGAFBM DCGIKMIBALD(string ALBOCLBFNNI, int ODFEKBJCFMN, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL, string KEIEIAAKHHK = "")
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm;
+		if (this.DOJKCHLIJNC.ContainsKey(0 + ALBOCLBFNNI))
+		{
+			bcdnkagafbm = this.DOJKCHLIJNC[0 + ALBOCLBFNNI];
+			bcdnkagafbm.BEGJKDBEOIB(GGNJJAHJKEL);
+			if (bcdnkagafbm.DKDILDPNDFI)
+			{
+				bcdnkagafbm.FLPABBBBJCD();
+			}
+			return bcdnkagafbm;
+		}
+		bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = 0
+		};
+		bcdnkagafbm.ODIMCAHNIDA(GGNJJAHJKEL);
+		bcdnkagafbm.KEIEIAAKHHK = KEIEIAAKHHK;
+		string text = 0 + ALBOCLBFNNI;
+		bcdnkagafbm.JMBKDINHDLO = text;
+		this.DOJKCHLIJNC.Add(text, bcdnkagafbm);
+		OMDDGEDHHNH.BGIIKMBCJGM(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D7D RID: 28029 RVA: 0x0033AF5C File Offset: 0x0033915C
+	public OMDDGEDHHNH.BCDNKAGAFBM CLKAOEILNJB(string ALBOCLBFNNI, int ODFEKBJCFMN, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL, string KEIEIAAKHHK = "")
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm;
+		if (this.DOJKCHLIJNC.ContainsKey(0 + ALBOCLBFNNI))
+		{
+			bcdnkagafbm = this.DOJKCHLIJNC[1 + ALBOCLBFNNI];
+			bcdnkagafbm.FBIHOJBOGNO(GGNJJAHJKEL);
+			if (bcdnkagafbm.DKDILDPNDFI)
+			{
+				bcdnkagafbm.KEAEMCGFNBG();
+			}
+			return bcdnkagafbm;
+		}
+		bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = 1
+		};
+		bcdnkagafbm.MNOEPFMPAMA(GGNJJAHJKEL);
+		bcdnkagafbm.KEIEIAAKHHK = KEIEIAAKHHK;
+		string text = 1 + ALBOCLBFNNI;
+		bcdnkagafbm.JMBKDINHDLO = text;
+		this.DOJKCHLIJNC.Add(text, bcdnkagafbm);
+		OMDDGEDHHNH.EGLMHMBCDGL(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D7E RID: 28030 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH FGHDAENJDHK()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D7F RID: 28031 RVA: 0x0033AFFC File Offset: 0x003391FC
+	public OMDDGEDHHNH.BCDNKAGAFBM GBAOIMFMLFD(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			return this.DOJKCHLIJNC[JHDIIHLCNEE + ALBOCLBFNNI];
+		}
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = JHDIIHLCNEE
+		};
+		this.DOJKCHLIJNC.Add(JHDIIHLCNEE + ALBOCLBFNNI, bcdnkagafbm);
+		OMDDGEDHHNH.HOKIMFFNIMN(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D80 RID: 28032 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH NKKDGPINOAJ()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D81 RID: 28033 RVA: 0x0033B06D File Offset: 0x0033926D
+	public bool KIAKLEEBHKI(string ALBOCLBFNNI)
+	{
+		return !this.DOJKCHLIJNC.ContainsKey(0 + ALBOCLBFNNI) && !File.Exists((AssetBundleManager.DCEIEKLCDLG() + ALBOCLBFNNI).Substring(8)) && false;
+	}
+
+	// Token: 0x06006D82 RID: 28034 RVA: 0x0033B0A8 File Offset: 0x003392A8
+	public OMDDGEDHHNH.BCDNKAGAFBM LGBJIEGHEOC(string ALBOCLBFNNI, int ODFEKBJCFMN, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL, string KEIEIAAKHHK = "")
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm;
+		if (this.DOJKCHLIJNC.ContainsKey(0 + ALBOCLBFNNI))
+		{
+			bcdnkagafbm = this.DOJKCHLIJNC[0 + ALBOCLBFNNI];
+			bcdnkagafbm.BEGJKDBEOIB(GGNJJAHJKEL);
+			if (bcdnkagafbm.DKDILDPNDFI)
+			{
+				bcdnkagafbm.EKJKDGEACFH();
+			}
+			return bcdnkagafbm;
+		}
+		bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = 1
+		};
+		bcdnkagafbm.BEGJKDBEOIB(GGNJJAHJKEL);
+		bcdnkagafbm.KEIEIAAKHHK = KEIEIAAKHHK;
+		string text = 1 + ALBOCLBFNNI;
+		bcdnkagafbm.JMBKDINHDLO = text;
+		this.DOJKCHLIJNC.Add(text, bcdnkagafbm);
+		OMDDGEDHHNH.KBADMDOCIBM(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D83 RID: 28035 RVA: 0x0033B148 File Offset: 0x00339348
+	public OMDDGEDHHNH.BCDNKAGAFBM HHOBHJAFDOJ(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			return this.DOJKCHLIJNC[JHDIIHLCNEE + ALBOCLBFNNI];
+		}
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = JHDIIHLCNEE
+		};
+		this.DOJKCHLIJNC.Add(JHDIIHLCNEE + ALBOCLBFNNI, bcdnkagafbm);
+		OMDDGEDHHNH.LJMENCIKHLD(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D84 RID: 28036 RVA: 0x0033B1B9 File Offset: 0x003393B9
+	public OMDDGEDHHNH.BCDNKAGAFBM CGHCLFDEEHN(GameObject LABINALEMEA, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL)
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM();
+		bcdnkagafbm.ALBOCLBFNNI = "http://forum.unity3d.com/threads/final-ik-full-body-ik-aim-look-at-fabrik-ccd-ik-1-0-released.222685/";
+		bcdnkagafbm.BEGJKDBEOIB(GGNJJAHJKEL);
+		bcdnkagafbm.DKDILDPNDFI = true;
+		bcdnkagafbm.PMJIHPFGCGJ = true;
+		bcdnkagafbm.DANHCOLDBDB = true;
+		bcdnkagafbm.FEDINAMCHHF = LABINALEMEA;
+		bcdnkagafbm.FMPMDOFDJAG();
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D85 RID: 28037 RVA: 0x0033B1F4 File Offset: 0x003393F4
+	private static void CEIMDGPNFCL(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		GameObject gameObject = new GameObject();
+		AssetLoader assetLoader = gameObject.AddComponent<AssetLoader>();
+		NOFCHOFPHAD.IEPBHPIBMEB = assetLoader;
+		assetLoader.MFDAPCGIBGN(NOFCHOFPHAD);
+		UnityEngine.Object.DontDestroyOnLoad(gameObject);
+	}
+
+	// Token: 0x06006D86 RID: 28038 RVA: 0x0033B220 File Offset: 0x00339420
+	public OMDDGEDHHNH.BCDNKAGAFBM DOPJJLCPMFM(GameObject LABINALEMEA, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL)
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM();
+		bcdnkagafbm.ALBOCLBFNNI = "Textures/Bases/";
+		bcdnkagafbm.LJGEPGGFHKD(GGNJJAHJKEL);
+		bcdnkagafbm.DKDILDPNDFI = false;
+		bcdnkagafbm.PMJIHPFGCGJ = true;
+		bcdnkagafbm.DANHCOLDBDB = true;
+		bcdnkagafbm.FEDINAMCHHF = LABINALEMEA;
+		bcdnkagafbm.CCGMOJLHKPG();
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D87 RID: 28039 RVA: 0x0033B25B File Offset: 0x0033945B
+	public bool PLKGFOBOGGJ(string ALBOCLBFNNI)
+	{
+		return !this.DOJKCHLIJNC.ContainsKey(1 + ALBOCLBFNNI) && !File.Exists((AssetBundleManager.LKKOLAEODGP() + ALBOCLBFNNI).Substring(6)) && false;
+	}
+
+	// Token: 0x06006D88 RID: 28040 RVA: 0x0033A458 File Offset: 0x00338658
+	public void PENPLDGIACG(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D89 RID: 28041 RVA: 0x0033A1F1 File Offset: 0x003383F1
+	public void FEBPEKPHHEO(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		if (this.DOJKCHLIJNC.ContainsValue(NOFCHOFPHAD))
+		{
+			this.DOJKCHLIJNC.Remove(NOFCHOFPHAD.JMBKDINHDLO);
+		}
+	}
+
+	// Token: 0x06006D8A RID: 28042 RVA: 0x0033A1F1 File Offset: 0x003383F1
+	public void FPFMFOGIFHA(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		if (this.DOJKCHLIJNC.ContainsValue(NOFCHOFPHAD))
+		{
+			this.DOJKCHLIJNC.Remove(NOFCHOFPHAD.JMBKDINHDLO);
+		}
+	}
+
+	// Token: 0x17000183 RID: 387
+	// (get) Token: 0x06006D8B RID: 28043 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH IKGFHGKKCPG
+	{
+		get
+		{
+			if (OMDDGEDHHNH.CCHGNBELGIA == null)
+			{
+				OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+			}
+			return OMDDGEDHHNH.CCHGNBELGIA;
+		}
+	}
+
+	// Token: 0x06006D8C RID: 28044 RVA: 0x0033A458 File Offset: 0x00338658
+	public void LDNFBPAHDOH(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D8D RID: 28045 RVA: 0x0033A1F1 File Offset: 0x003383F1
+	public void JEBIOAAKDCM(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		if (this.DOJKCHLIJNC.ContainsValue(NOFCHOFPHAD))
+		{
+			this.DOJKCHLIJNC.Remove(NOFCHOFPHAD.JMBKDINHDLO);
+		}
+	}
+
+	// Token: 0x06006D8E RID: 28046 RVA: 0x0033B293 File Offset: 0x00339493
+	public bool KFFJNCOHKLB(string ALBOCLBFNNI)
+	{
+		return this.DOJKCHLIJNC.ContainsKey(1 + ALBOCLBFNNI) || (!File.Exists((AssetBundleManager.DCEIEKLCDLG() + ALBOCLBFNNI).Substring(8)) && false);
+	}
+
+	// Token: 0x06006D8F RID: 28047 RVA: 0x0033B2CB File Offset: 0x003394CB
+	public bool PDJEHDOEPNJ(string ALBOCLBFNNI)
+	{
+		return this.DOJKCHLIJNC.ContainsKey(0 + ALBOCLBFNNI) || (!File.Exists((AssetBundleManager.DCEIEKLCDLG() + ALBOCLBFNNI).Substring(8)) && false);
+	}
+
+	// Token: 0x06006D90 RID: 28048 RVA: 0x0033A1F1 File Offset: 0x003383F1
+	public void DIGBJHHEJMA(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		if (this.DOJKCHLIJNC.ContainsValue(NOFCHOFPHAD))
+		{
+			this.DOJKCHLIJNC.Remove(NOFCHOFPHAD.JMBKDINHDLO);
+		}
+	}
+
+	// Token: 0x06006D91 RID: 28049 RVA: 0x0033B304 File Offset: 0x00339504
+	private static void HOKIMFFNIMN(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		GameObject gameObject = new GameObject();
+		AssetLoader assetLoader = gameObject.AddComponent<AssetLoader>();
+		NOFCHOFPHAD.IEPBHPIBMEB = assetLoader;
+		assetLoader.GFBFHOHEHAE(NOFCHOFPHAD);
+		UnityEngine.Object.DontDestroyOnLoad(gameObject);
+	}
+
+	// Token: 0x06006D92 RID: 28050 RVA: 0x0033A458 File Offset: 0x00338658
+	public void KHAPHDANBID(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D93 RID: 28051 RVA: 0x0033A458 File Offset: 0x00338658
+	public void DFEFBFEPKAO(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D94 RID: 28052 RVA: 0x0033A1F1 File Offset: 0x003383F1
+	public void KMGPNCBDICJ(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		if (this.DOJKCHLIJNC.ContainsValue(NOFCHOFPHAD))
+		{
+			this.DOJKCHLIJNC.Remove(NOFCHOFPHAD.JMBKDINHDLO);
+		}
+	}
+
+	// Token: 0x06006D95 RID: 28053 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH PALDDOGILLH()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D96 RID: 28054 RVA: 0x0033A1F1 File Offset: 0x003383F1
+	public void CNPLLEICDAB(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		if (this.DOJKCHLIJNC.ContainsValue(NOFCHOFPHAD))
+		{
+			this.DOJKCHLIJNC.Remove(NOFCHOFPHAD.JMBKDINHDLO);
+		}
+	}
+
+	// Token: 0x06006D97 RID: 28055 RVA: 0x0033B330 File Offset: 0x00339530
+	public OMDDGEDHHNH.BCDNKAGAFBM DKPDBNNNDLK(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			return this.DOJKCHLIJNC[JHDIIHLCNEE + ALBOCLBFNNI];
+		}
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = JHDIIHLCNEE
+		};
+		this.DOJKCHLIJNC.Add(JHDIIHLCNEE + ALBOCLBFNNI, bcdnkagafbm);
+		OMDDGEDHHNH.HIBADBMCFBJ(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006D98 RID: 28056 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH GDDAGIILGGM()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D99 RID: 28057 RVA: 0x0033A458 File Offset: 0x00338658
+	public void BCEGEIGOBHL(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D9A RID: 28058 RVA: 0x0033B3A4 File Offset: 0x003395A4
+	private static void KEIBEFJIFFE(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		GameObject gameObject = new GameObject();
+		AssetLoader assetLoader = gameObject.AddComponent<AssetLoader>();
+		NOFCHOFPHAD.IEPBHPIBMEB = assetLoader;
+		assetLoader.FCLIOHBDCFD(NOFCHOFPHAD);
+		UnityEngine.Object.DontDestroyOnLoad(gameObject);
+	}
+
+	// Token: 0x06006D9B RID: 28059 RVA: 0x0033A458 File Offset: 0x00338658
+	public void PFBMCJHBAAK(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D9C RID: 28060 RVA: 0x0033A458 File Offset: 0x00338658
+	public void EALJOOCJDFD(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006D9D RID: 28061 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH JFJBLLJNHJO()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006D9E RID: 28062 RVA: 0x0033A1F1 File Offset: 0x003383F1
+	public void KKFFNOIJLBM(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		if (this.DOJKCHLIJNC.ContainsValue(NOFCHOFPHAD))
+		{
+			this.DOJKCHLIJNC.Remove(NOFCHOFPHAD.JMBKDINHDLO);
+		}
+	}
+
+	// Token: 0x06006D9F RID: 28063 RVA: 0x0033B3D0 File Offset: 0x003395D0
+	private static void JCCOGCFIHOI(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		GameObject gameObject = new GameObject();
+		AssetLoader assetLoader = gameObject.AddComponent<AssetLoader>();
+		NOFCHOFPHAD.IEPBHPIBMEB = assetLoader;
+		assetLoader.AFNMNKJKOHO(NOFCHOFPHAD);
+		UnityEngine.Object.DontDestroyOnLoad(gameObject);
+	}
+
+	// Token: 0x06006DA0 RID: 28064 RVA: 0x0033A1F1 File Offset: 0x003383F1
+	public void EMMMPOADFKI(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		if (this.DOJKCHLIJNC.ContainsValue(NOFCHOFPHAD))
+		{
+			this.DOJKCHLIJNC.Remove(NOFCHOFPHAD.JMBKDINHDLO);
+		}
+	}
+
+	// Token: 0x06006DA1 RID: 28065 RVA: 0x0033B3FC File Offset: 0x003395FC
+	public OMDDGEDHHNH.BCDNKAGAFBM DKPDBNNNDLK(string ALBOCLBFNNI, int ODFEKBJCFMN, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL, string KEIEIAAKHHK = "")
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm;
+		if (this.DOJKCHLIJNC.ContainsKey(0 + ALBOCLBFNNI))
+		{
+			bcdnkagafbm = this.DOJKCHLIJNC[0 + ALBOCLBFNNI];
+			bcdnkagafbm.CAPONNNBHMD(GGNJJAHJKEL);
+			if (bcdnkagafbm.DKDILDPNDFI)
+			{
+				bcdnkagafbm.IALKJFLJBCP();
+			}
+			return bcdnkagafbm;
+		}
+		bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM
+		{
+			ALBOCLBFNNI = ALBOCLBFNNI,
+			ELAKHKLKDPM = 0
+		};
+		bcdnkagafbm.CAPONNNBHMD(GGNJJAHJKEL);
+		bcdnkagafbm.KEIEIAAKHHK = KEIEIAAKHHK;
+		string text = 0 + ALBOCLBFNNI;
+		bcdnkagafbm.JMBKDINHDLO = text;
+		this.DOJKCHLIJNC.Add(text, bcdnkagafbm);
+		OMDDGEDHHNH.HIBADBMCFBJ(bcdnkagafbm);
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006DA2 RID: 28066 RVA: 0x0033A458 File Offset: 0x00338658
+	public void MMPJHBABGAP(string ALBOCLBFNNI, int JHDIIHLCNEE)
+	{
+		if (this.DOJKCHLIJNC.ContainsKey(JHDIIHLCNEE + ALBOCLBFNNI))
+		{
+			this.DOJKCHLIJNC.Remove(JHDIIHLCNEE + ALBOCLBFNNI);
+		}
+	}
+
+	// Token: 0x06006DA3 RID: 28067 RVA: 0x0033A1F1 File Offset: 0x003383F1
+	public void IHHFBIOALNI(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		if (this.DOJKCHLIJNC.ContainsValue(NOFCHOFPHAD))
+		{
+			this.DOJKCHLIJNC.Remove(NOFCHOFPHAD.JMBKDINHDLO);
+		}
+	}
+
+	// Token: 0x06006DA4 RID: 28068 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH OGAOPAJFADH()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006DA5 RID: 28069 RVA: 0x0033A1F1 File Offset: 0x003383F1
+	public void AFJLEKDPEID(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		if (this.DOJKCHLIJNC.ContainsValue(NOFCHOFPHAD))
+		{
+			this.DOJKCHLIJNC.Remove(NOFCHOFPHAD.JMBKDINHDLO);
+		}
+	}
+
+	// Token: 0x06006DA6 RID: 28070 RVA: 0x0033B49C File Offset: 0x0033969C
+	private static void IHCKLLIJGEC(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		GameObject gameObject = new GameObject();
+		AssetLoader assetLoader = gameObject.AddComponent<AssetLoader>();
+		NOFCHOFPHAD.IEPBHPIBMEB = assetLoader;
+		assetLoader.GHMIFDHOMJC(NOFCHOFPHAD);
+		UnityEngine.Object.DontDestroyOnLoad(gameObject);
+	}
+
+	// Token: 0x06006DA7 RID: 28071 RVA: 0x0033B4C8 File Offset: 0x003396C8
+	public bool HFMCNAPKMPA(string ALBOCLBFNNI)
+	{
+		return !this.DOJKCHLIJNC.ContainsKey(0 + ALBOCLBFNNI) && File.Exists((AssetBundleManager.LKKOLAEODGP() + ALBOCLBFNNI).Substring(2));
+	}
+
+	// Token: 0x06006DA8 RID: 28072 RVA: 0x0033A139 File Offset: 0x00338339
+	public static OMDDGEDHHNH NPIEJELJPIM()
+	{
+		if (OMDDGEDHHNH.CCHGNBELGIA == null)
+		{
+			OMDDGEDHHNH.CCHGNBELGIA = new OMDDGEDHHNH();
+		}
+		return OMDDGEDHHNH.CCHGNBELGIA;
+	}
+
+	// Token: 0x06006DA9 RID: 28073 RVA: 0x0033B500 File Offset: 0x00339700
+	public bool LLFJKJEGEGB(string ALBOCLBFNNI)
+	{
+		return !this.DOJKCHLIJNC.ContainsKey(0 + ALBOCLBFNNI) && !File.Exists((AssetBundleManager.LKKOLAEODGP() + ALBOCLBFNNI).Substring(1));
+	}
+
+	// Token: 0x06006DAA RID: 28074 RVA: 0x0033B538 File Offset: 0x00339738
+	public OMDDGEDHHNH.BCDNKAGAFBM CCFAHNDIBIE(GameObject LABINALEMEA, OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP GGNJJAHJKEL)
+	{
+		OMDDGEDHHNH.BCDNKAGAFBM bcdnkagafbm = new OMDDGEDHHNH.BCDNKAGAFBM();
+		bcdnkagafbm.ALBOCLBFNNI = "from prefab";
+		bcdnkagafbm.CAPONNNBHMD(GGNJJAHJKEL);
+		bcdnkagafbm.DKDILDPNDFI = true;
+		bcdnkagafbm.PMJIHPFGCGJ = false;
+		bcdnkagafbm.DANHCOLDBDB = true;
+		bcdnkagafbm.FEDINAMCHHF = LABINALEMEA;
+		bcdnkagafbm.IALKJFLJBCP();
+		return bcdnkagafbm;
+	}
+
+	// Token: 0x06006DAB RID: 28075 RVA: 0x0033A1F1 File Offset: 0x003383F1
+	public void PENPLDGIACG(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		if (this.DOJKCHLIJNC.ContainsValue(NOFCHOFPHAD))
+		{
+			this.DOJKCHLIJNC.Remove(NOFCHOFPHAD.JMBKDINHDLO);
+		}
+	}
+
+	// Token: 0x06006DAC RID: 28076 RVA: 0x0033B574 File Offset: 0x00339774
+	private static void LFGNKGEOFDF(OMDDGEDHHNH.BCDNKAGAFBM NOFCHOFPHAD)
+	{
+		GameObject gameObject = new GameObject();
+		AssetLoader assetLoader = gameObject.AddComponent<AssetLoader>();
+		NOFCHOFPHAD.IEPBHPIBMEB = assetLoader;
+		assetLoader.MFDAPCGIBGN(NOFCHOFPHAD);
+		UnityEngine.Object.DontDestroyOnLoad(gameObject);
+	}
+
+	// Token: 0x0400100D RID: 4109
+	private static OMDDGEDHHNH CCHGNBELGIA;
+
+	// Token: 0x0400100E RID: 4110
+	public bool LGFJMPLCGJM;
+
+	// Token: 0x0400100F RID: 4111
+	private readonly Dictionary<string, OMDDGEDHHNH.BCDNKAGAFBM> DOJKCHLIJNC = new Dictionary<string, OMDDGEDHHNH.BCDNKAGAFBM>();
+
+	// Token: 0x04001010 RID: 4112
+	private const int IGKKHBPADPJ = 1;
+
+	// Token: 0x020001DA RID: 474
+	public class BCDNKAGAFBM
+	{
+		// Token: 0x06006DAD RID: 28077 RVA: 0x0033B5A0 File Offset: 0x003397A0
+		public GameObject CPHOPIMGFBI()
+		{
+			if (!(this.GIFGIFAHPIA == null))
+			{
+				return UnityEngine.Object.Instantiate<GameObject>(this.KBMFKFPDPMK(), default(Vector3), default(Quaternion));
+			}
+			return null;
+		}
+
+		// Token: 0x06006DAE RID: 28078 RVA: 0x0033B5DC File Offset: 0x003397DC
+		public void FLPABBBBJCD()
+		{
+			foreach (OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP kcklfobbclp in this.EHNIOFHLMDB)
+			{
+				try
+				{
+					if (kcklfobbclp != null)
+					{
+						kcklfobbclp(this);
+					}
+				}
+				catch (Exception message)
+				{
+					Debug.LogError(message);
+				}
+			}
+			this.EHNIOFHLMDB.Clear();
+		}
+
+		// Token: 0x06006DAF RID: 28079 RVA: 0x0033B654 File Offset: 0x00339854
+		public void MNOEPFMPAMA(OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP MCPJBOAKCMK)
+		{
+			if (MCPJBOAKCMK != null)
+			{
+				this.EHNIOFHLMDB.Add(MCPJBOAKCMK);
+			}
+		}
+
+		// Token: 0x06006DB0 RID: 28080 RVA: 0x0033B654 File Offset: 0x00339854
+		public void PCLBBOGHIDA(OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP MCPJBOAKCMK)
+		{
+			if (MCPJBOAKCMK != null)
+			{
+				this.EHNIOFHLMDB.Add(MCPJBOAKCMK);
+			}
+		}
+
+		// Token: 0x06006DB1 RID: 28081 RVA: 0x0033B668 File Offset: 0x00339868
+		public void IALKJFLJBCP()
+		{
+			foreach (OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP kcklfobbclp in this.EHNIOFHLMDB)
+			{
+				try
+				{
+					if (kcklfobbclp != null)
+					{
+						kcklfobbclp(this);
+					}
+				}
+				catch (Exception message)
+				{
+					Debug.LogError(message);
+				}
+			}
+			this.EHNIOFHLMDB.Clear();
+		}
+
+		// Token: 0x06006DB2 RID: 28082 RVA: 0x0033B654 File Offset: 0x00339854
+		public void DMCJGPEEJPN(OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP MCPJBOAKCMK)
+		{
+			if (MCPJBOAKCMK != null)
+			{
+				this.EHNIOFHLMDB.Add(MCPJBOAKCMK);
+			}
+		}
+
+		// Token: 0x06006DB3 RID: 28083 RVA: 0x0033B6E0 File Offset: 0x003398E0
+		public GameObject KBMFKFPDPMK()
+		{
+			return this.FEDINAMCHHF;
+		}
+
+		// Token: 0x06006DB4 RID: 28084 RVA: 0x0033B654 File Offset: 0x00339854
+		public void KGMACBOHLOD(OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP MCPJBOAKCMK)
+		{
+			if (MCPJBOAKCMK != null)
+			{
+				this.EHNIOFHLMDB.Add(MCPJBOAKCMK);
+			}
+		}
+
+		// Token: 0x06006DB5 RID: 28085 RVA: 0x0033B6E8 File Offset: 0x003398E8
+		public GameObject MKJJJBAJGPO()
+		{
+			if (!(this.KBMFKFPDPMK() == null))
+			{
+				return UnityEngine.Object.Instantiate<GameObject>(this.GIFGIFAHPIA, default(Vector3), default(Quaternion));
+			}
+			return null;
+		}
+
+		// Token: 0x06006DB6 RID: 28086 RVA: 0x0033B724 File Offset: 0x00339924
+		public GameObject OCNGPIEBEIG()
+		{
+			if (!(this.GIFGIFAHPIA == null))
+			{
+				return UnityEngine.Object.Instantiate<GameObject>(this.GIFGIFAHPIA, default(Vector3), default(Quaternion));
+			}
+			return null;
+		}
+
+		// Token: 0x06006DB7 RID: 28087 RVA: 0x0033B760 File Offset: 0x00339960
+		public void FMPMDOFDJAG()
+		{
+			foreach (OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP kcklfobbclp in this.EHNIOFHLMDB)
+			{
+				try
+				{
+					if (kcklfobbclp != null)
+					{
+						kcklfobbclp(this);
+					}
+				}
+				catch (Exception message)
+				{
+					Debug.LogError(message);
+				}
+			}
+			this.EHNIOFHLMDB.Clear();
+		}
+
+		// Token: 0x06006DB9 RID: 28089 RVA: 0x0033B6E0 File Offset: 0x003398E0
+		public GameObject EALFLNDMOKG()
+		{
+			return this.FEDINAMCHHF;
+		}
+
+		// Token: 0x06006DBA RID: 28090 RVA: 0x0033B804 File Offset: 0x00339A04
+		public void CCGMOJLHKPG()
+		{
+			foreach (OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP kcklfobbclp in this.EHNIOFHLMDB)
+			{
+				try
+				{
+					if (kcklfobbclp != null)
+					{
+						kcklfobbclp(this);
+					}
+				}
+				catch (Exception message)
+				{
+					Debug.LogError(message);
+				}
+			}
+			this.EHNIOFHLMDB.Clear();
+		}
+
+		// Token: 0x06006DBB RID: 28091 RVA: 0x0033B87C File Offset: 0x00339A7C
+		public GameObject GNHNOEIALLK()
+		{
+			if (!(this.NIGADFIHLHM() == null))
+			{
+				return UnityEngine.Object.Instantiate<GameObject>(this.NIGADFIHLHM(), default(Vector3), default(Quaternion));
+			}
+			return null;
+		}
+
+		// Token: 0x17000185 RID: 389
+		// (get) Token: 0x06006DBC RID: 28092 RVA: 0x0033B8B6 File Offset: 0x00339AB6
+		public float CCGIJLAHFPF
+		{
+			get
+			{
+				bool dkdildpndfi = this.DKDILDPNDFI;
+				return 1f;
+			}
+		}
+
+		// Token: 0x06006DBD RID: 28093 RVA: 0x0033B654 File Offset: 0x00339854
+		public void ODIMCAHNIDA(OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP MCPJBOAKCMK)
+		{
+			if (MCPJBOAKCMK != null)
+			{
+				this.EHNIOFHLMDB.Add(MCPJBOAKCMK);
+			}
+		}
+
+		// Token: 0x06006DBE RID: 28094 RVA: 0x0033B8C4 File Offset: 0x00339AC4
+		public float DNJJDNFIHMN()
+		{
+			bool dkdildpndfi = this.DKDILDPNDFI;
+			return 1127f;
+		}
+
+		// Token: 0x06006DBF RID: 28095 RVA: 0x0033B8D2 File Offset: 0x00339AD2
+		public float FHOJLIHCEJB()
+		{
+			bool dkdildpndfi = this.DKDILDPNDFI;
+			return 1633f;
+		}
+
+		// Token: 0x06006DC0 RID: 28096 RVA: 0x0033B8E0 File Offset: 0x00339AE0
+		public GameObject LFHPJGAPPCC()
+		{
+			if (!(this.HNOIENCONBC() == null))
+			{
+				return UnityEngine.Object.Instantiate<GameObject>(this.HNOIENCONBC(), default(Vector3), default(Quaternion));
+			}
+			return null;
+		}
+
+		// Token: 0x06006DC1 RID: 28097 RVA: 0x0033B654 File Offset: 0x00339854
+		public void LJGEPGGFHKD(OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP MCPJBOAKCMK)
+		{
+			if (MCPJBOAKCMK != null)
+			{
+				this.EHNIOFHLMDB.Add(MCPJBOAKCMK);
+			}
+		}
+
+		// Token: 0x06006DC2 RID: 28098 RVA: 0x0033B6E0 File Offset: 0x003398E0
+		public GameObject HNOIENCONBC()
+		{
+			return this.FEDINAMCHHF;
+		}
+
+		// Token: 0x06006DC3 RID: 28099 RVA: 0x0033B654 File Offset: 0x00339854
+		public void CAPONNNBHMD(OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP MCPJBOAKCMK)
+		{
+			if (MCPJBOAKCMK != null)
+			{
+				this.EHNIOFHLMDB.Add(MCPJBOAKCMK);
+			}
+		}
+
+		// Token: 0x06006DC4 RID: 28100 RVA: 0x0033B91A File Offset: 0x00339B1A
+		public float IJJJCIKHKDD()
+		{
+			bool dkdildpndfi = this.DKDILDPNDFI;
+			return 1641f;
+		}
+
+		// Token: 0x06006DC5 RID: 28101 RVA: 0x0033B654 File Offset: 0x00339854
+		public void OFGEMKOLANM(OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP MCPJBOAKCMK)
+		{
+			if (MCPJBOAKCMK != null)
+			{
+				this.EHNIOFHLMDB.Add(MCPJBOAKCMK);
+			}
+		}
+
+		// Token: 0x06006DC6 RID: 28102 RVA: 0x0033B6E0 File Offset: 0x003398E0
+		public GameObject NIGADFIHLHM()
+		{
+			return this.FEDINAMCHHF;
+		}
+
+		// Token: 0x06006DC7 RID: 28103 RVA: 0x0033B928 File Offset: 0x00339B28
+		public GameObject EFEDICJAKPA()
+		{
+			if (!(this.EALFLNDMOKG() == null))
+			{
+				return UnityEngine.Object.Instantiate<GameObject>(this.KBMFKFPDPMK(), default(Vector3), default(Quaternion));
+			}
+			return null;
+		}
+
+		// Token: 0x17000184 RID: 388
+		// (get) Token: 0x06006DC8 RID: 28104 RVA: 0x0033B6E0 File Offset: 0x003398E0
+		public GameObject GIFGIFAHPIA
+		{
+			get
+			{
+				return this.FEDINAMCHHF;
+			}
+		}
+
+		// Token: 0x06006DC9 RID: 28105 RVA: 0x0033B964 File Offset: 0x00339B64
+		public void GPGOJAJNGEE()
+		{
+			foreach (OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP kcklfobbclp in this.EHNIOFHLMDB)
+			{
+				try
+				{
+					if (kcklfobbclp != null)
+					{
+						kcklfobbclp(this);
+					}
+				}
+				catch (Exception message)
+				{
+					Debug.LogError(message);
+				}
+			}
+			this.EHNIOFHLMDB.Clear();
+		}
+
+		// Token: 0x06006DCA RID: 28106 RVA: 0x0033B9DC File Offset: 0x00339BDC
+		public GameObject OCCMKOPELGK()
+		{
+			if (!(this.EALFLNDMOKG() == null))
+			{
+				return UnityEngine.Object.Instantiate<GameObject>(this.GIFGIFAHPIA, default(Vector3), default(Quaternion));
+			}
+			return null;
+		}
+
+		// Token: 0x06006DCB RID: 28107 RVA: 0x0033BA18 File Offset: 0x00339C18
+		public GameObject PGPNBDMKIGO()
+		{
+			if (!(this.KBMFKFPDPMK() == null))
+			{
+				return UnityEngine.Object.Instantiate<GameObject>(this.HNOIENCONBC(), default(Vector3), default(Quaternion));
+			}
+			return null;
+		}
+
+		// Token: 0x06006DCC RID: 28108 RVA: 0x0033B654 File Offset: 0x00339854
+		public void FBIHOJBOGNO(OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP MCPJBOAKCMK)
+		{
+			if (MCPJBOAKCMK != null)
+			{
+				this.EHNIOFHLMDB.Add(MCPJBOAKCMK);
+			}
+		}
+
+		// Token: 0x06006DCD RID: 28109 RVA: 0x0033BA54 File Offset: 0x00339C54
+		public void KEAEMCGFNBG()
+		{
+			foreach (OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP kcklfobbclp in this.EHNIOFHLMDB)
+			{
+				try
+				{
+					if (kcklfobbclp != null)
+					{
+						kcklfobbclp(this);
+					}
+				}
+				catch (Exception message)
+				{
+					Debug.LogError(message);
+				}
+			}
+			this.EHNIOFHLMDB.Clear();
+		}
+
+		// Token: 0x06006DCE RID: 28110 RVA: 0x0033BACC File Offset: 0x00339CCC
+		public void EKJKDGEACFH()
+		{
+			foreach (OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP kcklfobbclp in this.EHNIOFHLMDB)
+			{
+				try
+				{
+					if (kcklfobbclp != null)
+					{
+						kcklfobbclp(this);
+					}
+				}
+				catch (Exception message)
+				{
+					Debug.LogError(message);
+				}
+			}
+			this.EHNIOFHLMDB.Clear();
+		}
+
+		// Token: 0x06006DCF RID: 28111 RVA: 0x0033B654 File Offset: 0x00339854
+		public void BEGJKDBEOIB(OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP MCPJBOAKCMK)
+		{
+			if (MCPJBOAKCMK != null)
+			{
+				this.EHNIOFHLMDB.Add(MCPJBOAKCMK);
+			}
+		}
+
+		// Token: 0x04001011 RID: 4113
+		public GameObject FEDINAMCHHF;
+
+		// Token: 0x04001012 RID: 4114
+		public AssetBundleCreateRequest ELCDHEEBMMO;
+
+		// Token: 0x04001013 RID: 4115
+		public string JMBKDINHDLO = "";
+
+		// Token: 0x04001014 RID: 4116
+		public string ALBOCLBFNNI = "";
+
+		// Token: 0x04001015 RID: 4117
+		public string KEIEIAAKHHK;
+
+		// Token: 0x04001016 RID: 4118
+		public int ELAKHKLKDPM;
+
+		// Token: 0x04001017 RID: 4119
+		public int ODFEKBJCFMN;
+
+		// Token: 0x04001018 RID: 4120
+		public bool DKDILDPNDFI;
+
+		// Token: 0x04001019 RID: 4121
+		public bool PMJIHPFGCGJ;
+
+		// Token: 0x0400101A RID: 4122
+		public bool DANHCOLDBDB;
+
+		// Token: 0x0400101B RID: 4123
+		public AssetLoader IEPBHPIBMEB;
+
+		// Token: 0x0400101C RID: 4124
+		private readonly List<OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP> EHNIOFHLMDB = new List<OMDDGEDHHNH.BCDNKAGAFBM.KCKLFOBBCLP>();
+
+		// Token: 0x020001DB RID: 475
+		// (Invoke) Token: 0x06006DD1 RID: 28113
+		public delegate void KCKLFOBBCLP(OMDDGEDHHNH.BCDNKAGAFBM ONPHLHKAGFP);
+	}
+}

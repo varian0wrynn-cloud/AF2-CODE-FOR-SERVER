@@ -1,0 +1,46 @@
+﻿using System;
+using UnityEngine;
+
+// Token: 0x020000E2 RID: 226
+public static class CACOONDGONC
+{
+	// Token: 0x06002ABA RID: 10938 RVA: 0x0013B419 File Offset: 0x00139619
+	public static Color HABKBEFMJLB(Color LBCGACKJCJB, float ANFLJHGNNKF)
+	{
+		if (ANFLJHGNNKF == 1f)
+		{
+			return LBCGACKJCJB;
+		}
+		return new Color(LBCGACKJCJB.r * ANFLJHGNNKF, LBCGACKJCJB.g * ANFLJHGNNKF, LBCGACKJCJB.b * ANFLJHGNNKF, LBCGACKJCJB.a);
+	}
+
+	// Token: 0x06002ABB RID: 10939 RVA: 0x0013B448 File Offset: 0x00139648
+	public static Color OAOIGJNCIDL(Color LBCGACKJCJB, float ANFLJHGNNKF)
+	{
+		if (ANFLJHGNNKF == 1f)
+		{
+			return LBCGACKJCJB;
+		}
+		return new Color(LBCGACKJCJB.r * ANFLJHGNNKF, LBCGACKJCJB.g * ANFLJHGNNKF, LBCGACKJCJB.b * ANFLJHGNNKF, LBCGACKJCJB.a * ANFLJHGNNKF);
+	}
+
+	// Token: 0x06002ABC RID: 10940 RVA: 0x0013B479 File Offset: 0x00139679
+	public static Color GMBEHNILNBE(Color LBCGACKJCJB, float MPLIELHNCGK)
+	{
+		if (MPLIELHNCGK == 1f)
+		{
+			return LBCGACKJCJB;
+		}
+		return new Color(Mathf.Pow(LBCGACKJCJB.r, MPLIELHNCGK), Mathf.Pow(LBCGACKJCJB.g, MPLIELHNCGK), Mathf.Pow(LBCGACKJCJB.b, MPLIELHNCGK), LBCGACKJCJB.a);
+	}
+
+	// Token: 0x06002ABD RID: 10941 RVA: 0x0013B4B4 File Offset: 0x001396B4
+	public static Color JGMFKHJFMHI(Color LBCGACKJCJB, float MPLIELHNCGK)
+	{
+		if (MPLIELHNCGK == 1f)
+		{
+			return LBCGACKJCJB;
+		}
+		return new Color(Mathf.Pow(LBCGACKJCJB.r, MPLIELHNCGK), Mathf.Pow(LBCGACKJCJB.g, MPLIELHNCGK), Mathf.Pow(LBCGACKJCJB.b, MPLIELHNCGK), Mathf.Pow(LBCGACKJCJB.a, MPLIELHNCGK));
+	}
+}
